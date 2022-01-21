@@ -2,6 +2,11 @@
 
 /*---------Colours---------*/
 
+
+.active {
+    color: blueviolet;
+}
+
 /*---------Special Paddings and margins---------*/
 .navbar-brand {
     padding-left: 25px;
@@ -13,6 +18,7 @@ body {
 
 .navbar {
     padding: 0;
+    top: 0;
 }
 
 /*---------Headers---------*/
@@ -35,8 +41,8 @@ body {
 }
 
 .nav-item {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 17px;
+    padding-left: 18px;
     border-radius: 20px;
 }
 
@@ -47,10 +53,70 @@ body {
 
 .hvr-radial-out:before {
     transition: ease-in 0.4s ;
-    background-color: royalblue;
+    background-color: rgba(140, 141, 145, 0.2);
+    color: blue;
 }
 
 .active { 
     text-decoration: underline 4px;
+    text-underline-offset: 2px;
     font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(23, 70, 173, 0.9);
+    font-size: 1.1em;
+}
+
+.nav-link {
+    bottom: 40px;
+}
+
+.col-6 {
+    background-color: darkblue;
+    color: #fff;
+}
+
+#active > a {
+    color: royalblue;
+}
+
+.first {
+    background-color: silver;
+    color: royalblue;
+}
+
+.second {
+    background-color: royalblue;
+    color: seashell;
+}
+
+.carousel-item {
+    height: 20rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    position: relative;
+}
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding-bottom: 50px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.65;
+}
+
+.slider-text {
+    width: 70%;
 }
