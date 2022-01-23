@@ -18,7 +18,6 @@ body {
 
 .navbar {
     padding: 0;
-    top: 0;
 }
 
 /*---------Headers---------*/
@@ -119,4 +118,44 @@ body {
 
 .slider-text {
     width: 70%;
+}
+
+.footer {
+    height: 50px;
+}
+
+.profilepic {
+    border-radius: 50%;
+    margin: auto 0;
+    top: 0;
+    width: 100%;
+    padding: 20%;
+}
+
+h2,
+h4 {
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.topcontact {
+    color: #fff;
+    height: 35px;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+    background-color: blue;
+    padding-top: 10px;
+}
+
+
+.sticky {
+    position: sticky;
 }
