@@ -183,21 +183,19 @@ h4 {
 }
 
 .our-team {
-    text-decoration: underline 2px;
-    text-underline-offset: 2px;
     color: #fff;
-    background-color: royalblue;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    height: 40px;
+    font-size: 200%;
+    background: rgb(254,255,245);
+    background: linear-gradient(180deg, rgba(254,255,245,1) 0%, rgba(18,66,255,1) 7%, rgba(17,62,239,1) 93%, rgba(255,255,255,1) 100%);
 }
 
 .spacer {
-    background-color: yellow;
+    background-color: rgb(256,252,76);
     color: #fff;
-    height: 40px;
-    opacity: 50%;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    height: 45px;
+    text-align: center;
+    font-size: 200%;
 }
 
 .row {
@@ -220,18 +218,9 @@ h4 {
     max-height: 90%;
 }
 
-.booking-button {
-    background-color: yellow;
-    opacity: 50%;
+#navbarNav > ul > li.nav-item.booking-button.d-none.d-lg-block {
+    background-color: rgb(256,252,76);
     color: black;
-    border: 1px solid black;
     font-weight: 500;
 }
 
-#navbarNav > ul > li.nav-item.booking-button.d-none.d-lg-block {
-    background-color: yellow;
-    opacity: 50%;
-    color: black;
-    border: 1px solid black;
-    font-weight: 500;
-}
