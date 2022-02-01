@@ -168,6 +168,7 @@ h4 {
 .icon-link {
     color: #fff;
     padding-top: 2px;
+    text-decoration: none;
 }
 
 .no-padding {
@@ -230,4 +231,15 @@ h4 {
     color: white;
     text-decoration: none;
     font-size: smaller;
+}
+
+#basic-addon1 {
+    width: 125px;
+    background-color: rgb(256,252,76,0.5);
+    font-weight: 500;
+}
+
+.contact-top{
+    text-align: center;
+    text-transform: uppercase;
 }
