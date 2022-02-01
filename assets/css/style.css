@@ -192,8 +192,7 @@ h4 {
 
 .spacer {
     background-color: rgb(256,252,76);
-    color: #fff;
-    height: 45px;
+    height: 55px;
     text-align: center;
     font-size: 200%;
 }
@@ -224,3 +223,11 @@ h4 {
     font-weight: 500;
 }
 
+.button-border {
+    padding: 0px 14px;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+}
