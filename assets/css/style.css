@@ -113,7 +113,8 @@ body {
 }
 
 .footer {
-    height: 50px;
+    height: 120px;
+    line-height: 1px;
 }
 
 .profilepic {
@@ -132,10 +133,12 @@ h4 {
 .footer-left {
     text-align: left;
     color: #fff;
+    padding-top: 15px;
+    font-size: 0.8rem;
 }
 
 .footer-right {
-    text-align: right;
+    padding: 15px 0px 15px 0px
 }
 
 .topcontact {
@@ -243,4 +246,22 @@ h4 {
 .contact-top{
     text-align: center;
     text-transform: uppercase;
+}
+
+
+
+.footer-text-right {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.col-padding{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+body > section > form > div > dv > div > div.input-group.send-message-button > button {
+    text-align: center;
 }
