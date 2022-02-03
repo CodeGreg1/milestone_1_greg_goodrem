@@ -339,8 +339,13 @@ div > table {
     background-size: contain;
 }
 
+.prime-tab {
+    padding: 0px;
+}
 
-
-.gym-marg {
-    margin
+.pt-header {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
 }
