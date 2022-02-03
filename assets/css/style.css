@@ -302,51 +302,41 @@ div > table {
     padding-top: 25px;
 }
 
-.pt-tab {
+.tab {
     height: 200px;
     color: black;
     font-size: 3.7vw;
     text-align: center;
+    line-height: 100%;
+    border: 1px solid gray;
+    padding-top: 15px;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+.pt-tab {
     background-image: url(/assets/images/pt-icon.png);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;
-    line-height: 100%;
-    border: 1px solid gray;
-    padding-top: 15px;
 }
 
 
 .sm-tab {
-    height: 200px;
-    color: black;
-    font-size: 3.7vw;
-    text-align: center;
     background-image: url(/assets/images/sm-icon.png);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;
-    line-height: 100%;
-    border: 1px solid gray;
-    padding-top: 15px;
 }
 
 
 .gm-tab {
-    height: 200px;
-    color: black;
-    font-size: 3.7vw;
-    text-align: center;
     background-image: url(/assets/images/gm-icon.png);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;
-    line-height: 100%;
-    border: 1px solid gray;
-    padding-top: 15px;
 }
 
 
