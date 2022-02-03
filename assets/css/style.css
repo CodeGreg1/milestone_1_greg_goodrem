@@ -301,3 +301,56 @@ div > table {
 .opening-message {
     padding-top: 25px;
 }
+
+.pt-tab {
+    height: 200px;
+    color: black;
+    font-size: 3.7vw;
+    text-align: center;
+    background-image: url(/assets/images/pt-icon.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    line-height: 100%;
+    border: 1px solid gray;
+    padding-top: 15px;
+}
+
+
+.sm-tab {
+    height: 200px;
+    color: black;
+    font-size: 3.7vw;
+    text-align: center;
+    background-image: url(/assets/images/sm-icon.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    line-height: 100%;
+    border: 1px solid gray;
+    padding-top: 15px;
+}
+
+
+.gm-tab {
+    height: 200px;
+    color: black;
+    font-size: 3.7vw;
+    text-align: center;
+    background-image: url(/assets/images/gm-icon.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+    line-height: 100%;
+    border: 1px solid gray;
+    padding-top: 15px;
+}
+
+
+
+.gym-marg {
+    margin
+}
