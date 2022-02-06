@@ -349,3 +349,22 @@ div > table {
     font-size: 24px;
     padding-top: 15px;
 }
+
+.get-in-contact {
+    background-color: yellow;
+    border-radius: 25px;
+    font-weight: 600;
+    color: blue;
+    margin: auto 0;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: rgba(17,62,239,1);
+    font-size: 20px;
+    
+}
+
+.tab-pos {
+    margin-top: 25px;
+}
