@@ -368,3 +368,54 @@ div > table {
 .tab-pos {
     margin-top: 25px;
 }
+
+.top-tabs {
+    margin-top: 25px;
+}
+
+#myTabContent > div.active {
+    text-decoration: none;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    width: 33%;
+    padding-right: 6px;
+    line-height: 24px;
+}
+
+.sm-tab-text-btn > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hide-tabs {
+    display: none;
+}
+
+.accordion-button {
+    background-color: rgb(256,252,76, 0.5);
+    display: block;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+.acc-pt-pic {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.acc-ind-pt-pic {
+    width: 75%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#collapseOne > div > div > div.row > div.col-12.col-md-8 > h3 {
+    display: block;
+    margin: auto;
+    width: 200px;
+    margin-bottom: 25px;
+}

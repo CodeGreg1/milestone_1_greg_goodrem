@@ -1,0 +1,25 @@
+ <!--Tabs for PT, SM & M-->
+ <div>
+    <div class="container-fluid prime-tab">
+      <div id="clickme" class="row bg-dark" onclick="changeClass()">
+        <div class="col-4 pt-tab tab nothing" onclick="location.href='#personaltraining'">Personal Training</a>
+        </div>
+        <div class="col-4 sm-tab tab nothing" onclick="location.href='#sportsmassage'">Sports Massage
+        </div>
+        <div class="col-4 gm-tab tab nothing" onclick="location.href='#memberships'">Memberships
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div>
+    <button class="nothing" id="clickme" onclick="changeClass()">Change Class</button>
+    <br>  
+  </div>
+  <script type="text/javascript"> 
+        function changeClass() { 
+            document.getElementById('clickme').className = "hide-tabs"; 
+        } 
+  </script> 
