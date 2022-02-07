@@ -432,3 +432,14 @@ tbody, td, tfoot, th, thead, tr {
     text-decoration: none;
     text-underline-offset: 0px;
 }
+
+.list-group {
+    width: 350px;
+    position: relative;
+    margin: auto;
+}
+
+.list-group-item-info {
+    color: black;
+    text-align: center;
+}
