@@ -408,6 +408,8 @@ tbody, td, tfoot, th, thead, tr {
 
 .acc-ind-pt-pic {
     width: 75%;
+    max-width: 300px;
+    aspect-ratio: true;
     display: block;
     margin: auto;
     border-radius: 15px;
@@ -418,4 +420,15 @@ tbody, td, tfoot, th, thead, tr {
     margin: auto;
     width: 200px;
     margin-bottom: 25px;
+}
+
+.icon {
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.active,p {
+    text-decoration: none;
+    text-underline-offset: 0px;
 }

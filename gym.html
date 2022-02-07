@@ -74,7 +74,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              Personal Training
+              Personal Training <img class="icon" src="/assets/images/pt-icon-small.png" alt="">
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -95,23 +95,20 @@
                   <img class="acc-pt-pic" src="assets/images/gym-front.JPG" alt="" width="200px">
                   </div>
                 </div>
-                <div class="tab-pos">
-                  <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">In Studio</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Outdoors</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Online</button>
-                    </li>
-                  </ul>
-                  <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <!--Tabs for PT-->
+                <div class="d-flex align-items-start top-tabs">
+                  <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Indoors</button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Outdoors</button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Online</button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Programs</button>
+                  </div>
+                  <!--Indoor tab-->
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                       <div class="container-fluid">
-                        <div class="row top-tabs">
-                          <div class="col-12 col-md-6">
+                        <div class="row">
+                          <div class="col-12 col-sm-6">
                             <p>
                               Delivery of personal training in our studio is by far the most interactive way to personal train. 
                               The environment is made for all types people wanting a private facility and almost feel like they are 
@@ -130,51 +127,71 @@
                               <br>
                               <p>All together this offers some of the best focused personal training.</p>
                           </div>
-                          <div class="col-12 col-md-6">
-                            <img class="acc-ind-pt-pic" src="/assets/images/sarah-pt.jpg" alt="">
-                          </div>
-                        </div>
-                      </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                      <div class="container-fluid">
-                        <div class="row top-tabs">
-                          <div class="col-6">
-                            <p>
-                              Delivery of personal training in our studio is by far the most interactive way to personal train. 
-                              The environment is made for all types people wanting a private facility and almost feel like they are 
-                              training in their very own gym. We have all the main bits of kit and some cool extras:</p>
-                              <table class="table-width">
-                                <tr>
-                                  <td>Ski-Erg</td><td>Assault Bike</td><td>Resistance Machines</td>
-                                </tr>
-                                <tr>
-                                  <td>Rowers</td><td>TRX</td><td>Cable Machine</td>
-                                </tr>
-                                <tr>
-                                  <td>Treadmill</td><td>Free weights</td><td>Speciality Barbells</td>
-                                </tr>
-                              </table>
-                              <br>
-                              <p>All together this offers some of the best focused personal training.</p>
-                          </div>
-                          <div class="col-6">
+                          <div class="col-12 col-sm-6">
                             <img src="/assets/images/sarah-pt.jpg" alt="" width="250px">
                           </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                    </div>
+                  <!--Outdoor tab-->
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-12 col-sm-4">
+                          <img src="/assets/images/outdoor-pt.jpg" alt="" width="250px">
+                          </div>
+                          <div class="col-12 col-sm-7">
+                            <p>Training outdoors is a really fun way to get fit and have personal training. 
+                            We have all sorts of portable equipment that we can use in conjunction with outdoor locations.</p>
+                            <p>Shoeburyness and the seafront in general has so many interesting locations we can use. 
+                            We can use steps, beaches, hills, parks, woods and other places to have a great workout!</p>
+                          </div>
+                       </div>
+                      </div>
+                    </div>
+                    <!--Online tab-->
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-12 col-sm-7">
+                            <p>Training online means we can train you anywhere in the world be it if you are 
+                              in your home or on the other side of the planet.</p>
+                            <p>Using technology like Zoom/Skype/Facebook/Whatsapp we will find a way to be able to be in contact with you.</p>
+                          </div>
+                          <div class="col-12 col-sm-5">
+                            <img src="/assets/images/online-pt.png" alt="" width="250px">
+                          </div>
+                       </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                      <div class="container-fluid">
+                        <div class="row">
+                          <div class="col-12 col-sm-7">
+                            <p>As an extention to online training we can write specific programs for many goals. We can do some of the fitness and health assessments in person if you are local and build a progrm from there.</p>
+                            <p>Between us we have experience of competing of training towards many different physical goals: Sprinting, Marathons, treks, swimming, tough mudders and obstacle course races.</p>
+                            <p></p>
+                          </div>
+                          <div class="col-12 col-sm-5">
+                            <img src="/assets/images/online-pt.png" alt="" width="250px">
+                          </div>
+                       </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
             </div>
-                </div>
+          </div>
+        </div>
               </div>
             </div>
           </div>
         </div>
+        <!--Sports Massage Accordion-->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Sports Massage
+              Sports Massage  <img class="icon" src="/assets/images/sm-icon-small.png" alt="">
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -201,20 +218,30 @@
           </div>
         </div>
         </div>
+        <!--Memberships Accordion-->
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Memberships
+              Memberships <img class="icon" src="/assets/images/gm-icon-small.png" alt="">
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
               You agree to be charged at the time of subscription based on the type of plan you have selected. 
               Rolling memberships will be renewed automatically and billed to your payment card at the beginning 
               of each subscription period until you cancel.</div>
+             <div class="container-fluid">
+               <div class="row">
+                 <div class="col-12 col-md-6">
+                   Membership basic
+                 </div>
+                 <div class="col-12 col-md-6">
+                   Membership program
+                 </div>
+               </div>
+             </div>
           </div>
         </div>
-      </div>
       </div>
       <!--Form-->
       <form>
@@ -322,5 +349,6 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </body>
 </html>
