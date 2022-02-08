@@ -434,7 +434,7 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .list-group {
-    width: 350px;
+    width: 450px;
     position: relative;
     margin: auto;
 }
@@ -442,4 +442,26 @@ tbody, td, tfoot, th, thead, tr {
 .list-group-item-info {
     color: black;
     text-align: center;
+}
+
+.membership-img {
+    background-image: url(/assets/images/barbell.jpeg);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    opacity: 0.85;
+}
+
+.list-group {
+    padding: 30px;
+}
+
+.get-started {
+    background-color: blue;
+}
+
+.get-started > a {
+    text-decoration: none;
+    color: #fff;
 }
