@@ -451,6 +451,7 @@ tbody, td, tfoot, th, thead, tr {
     background-repeat: no-repeat; 
     background-size: cover;
     opacity: 0.85;
+    margin: 0;
 }
 
 .list-group {
@@ -464,4 +465,19 @@ tbody, td, tfoot, th, thead, tr {
 .get-started > a {
     text-decoration: none;
     color: #fff;
+}
+
+.list-header {
+    color: blue;
+    font-weight: 700;
+    margin: 0;
+}
+
+.accordion-body {
+    padding: 0;
+}
+
+.membership-agreement {
+    color: #fff;
+    text-align: center;
 }
