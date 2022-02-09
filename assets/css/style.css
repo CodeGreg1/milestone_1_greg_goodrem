@@ -172,7 +172,6 @@ h4 {
 .icon-link {
     color: #fff;
     padding-top: 2px;
-    text-decoration: none;
 }
 
 .no-padding {
@@ -233,7 +232,6 @@ h4 {
     border-radius: 25px;
     background-color: royalblue;
     color: white;
-    text-decoration: none;
     font-size: smaller;
 }
 
@@ -264,7 +262,7 @@ h4 {
 
 #send-button {
     background-color: rgba(17,62,239,1);
-    border-radius: 12px;
+    border-radius: 25px;
     margin-bottom: 25px;
 }
 
@@ -350,14 +348,6 @@ div > table {
     padding-top: 15px;
 }
 
-.get-in-contact {
-    background-color: yellow;
-    border-radius: 25px;
-    font-weight: 600;
-    color: blue;
-    margin: auto 0;
-}
-
 .accordion-button:not(.collapsed) {
     color: #fff;
     background-color: rgba(17,62,239,1);
@@ -384,8 +374,15 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .sm-tab-text-btn > a {
-    text-decoration: none;
     color: #fff;
+}
+
+.sm-tab-text-btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 220px;
+    border-radius: 25px;
 }
 
 .hide-tabs {
@@ -404,6 +401,15 @@ tbody, td, tfoot, th, thead, tr {
     display: block;
     margin: auto;
     border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.acc-tab-pic {
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .acc-ind-pt-pic {
@@ -415,11 +421,15 @@ tbody, td, tfoot, th, thead, tr {
     border-radius: 15px;
 }
 
-#collapseOne > div > div > div.row > div.col-12.col-md-8 > h3 {
+h3.get-in-contact {
     display: block;
     margin: auto;
-    width: 200px;
+    width: 250px;
     margin-bottom: 25px;
+    background-color: yellow;
+    border-radius: 25px;
+    font-weight: 600;
+    color: blue;
 }
 
 .icon {
@@ -434,9 +444,14 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .list-group {
-    width: 450px;
+    max-width: 450px;
     position: relative;
     margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.list-group-item{
+    width: 100%;
 }
 
 .list-group-item-info {
@@ -463,7 +478,6 @@ tbody, td, tfoot, th, thead, tr {
 }
 
 .get-started > a {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -480,4 +494,17 @@ tbody, td, tfoot, th, thead, tr {
 .membership-agreement {
     color: #fff;
     text-align: center;
+}
+
+.membership-contact {
+    margin-top: 35px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+    background-color: blue;
+    border-radius: 20px;
 }
