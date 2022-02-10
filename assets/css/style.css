@@ -1,146 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*---------Colours---------*/
-
+#active > a {
+    color: royalblue;}
+.first {
+    background-color: silver;
+    color: royalblue;}
+.second {
+    background-color: royalblue;
+    color: seashell;}
+.map-opening {
+    background-color: rgba(0, 0, 0, 0.5);}
+.get-started {
+    background-color: blue;}
+.get-started > a {
+    color: #fff;}
+.sm-tab-text-btn > a {
+    color: #fff;}
 
 /*---------Special Paddings and margins---------*/
 .navbar-brand {
-    padding-left: 25px;
-}
-
+    padding-left: 25px;}
 body {
-    padding: 100px 10px 50px 10px;
-}
-
+    padding: 100px 10px 50px 10px;}
 .navbar {
-    padding: 0;
-}
-
-/*---------Headers---------*/
-
-/*---------Hovers---------*/
-
-/*---------Footers---------*/
-
-/*---------  ---------*/
-
-/*---------  ---------*/
-
-.navbar-nav {
-    right: 30px;
-    position: absolute;
-    padding: 0;
-    border-radius: 5%;
-}
-.nav a {
-    position: relative;
-}
-
-.nav-item {
-    padding-right: 17px;
-    padding-left: 18px;
-    border-radius: 20px;
-}
-
-
-.hvr-radial-out {
-    background-color: #fff;
-}
-
-.hvr-radial-out:before {
-    transition: ease-in 0.4s ;
-    background-color: rgba(140, 141, 145, 0.2);
-    color: rgb(0, 0, 0);
-}
-
-.active { 
-    text-decoration: underline 4px;
-    text-underline-offset: 2px;
-    font-weight: 600;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: rgba(65,105,225, 1);
-    font-size: 1.1em;
-}
-
+    padding: 0;}
+.col-padding{
+    padding-right: 10px;
+    padding-left: 10px;}
+.membership-contact {
+    margin-top: 35px;}
+.prime-tab {
+    padding: 0px;}
 .nav-link {
-    bottom: 40px;
-}
-
-#active > a {
-    color: royalblue;
-}
-
-.first {
-    background-color: silver;
-    color: royalblue;
-}
-
-.second {
-    background-color: royalblue;
-    color: seashell;
-}
-
-.carousel-item {
-    height: 18rem;
-    background: rgb(0, 0, 0);
-    color: white;
-    position: relative;
-}
+    bottom: 40px;}
+.footer-right {
+    padding: 15px 0px 15px 0px;}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;}
+.accordion-body {
+    padding: 0;}
+div > table {
+    margin: auto;}
+.map-margin {
+    padding: 20px;}
+.opening-message {
+    padding-top: 25px;}
+.row {
+    margin-left: 0;
+    margin-right: 0;}
+.list-group {
+    padding: 30px;}
+.tab-pos {
+    margin-top: 25px;}
+.top-tabs {
+    margin-top: 25px;}
+.opening {
+    color: #fff;}
 .container {
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     top: 0;
-    padding-bottom: 50px;
-}
+    padding-bottom: 50px;}
 
-.overlay-image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.65;
-}
-
-.slider-text {
-    width: 70%;
-}
-
-.footer {
-    height: 120px;
-    line-height: 1px;
-}
-
-.profilepic {
-    border-radius: 50%;
-    margin: auto 0;
-    top: 0;
-    width: 100%;
-    padding: 20%;
-}
-
-h2,
-h4 {
-    text-align: center;
-}
-
-.footer-left {
-    text-align: left;
-    color: #fff;
-    padding-top: 15px;
-    font-size: 0.8rem;
-}
-
-.footer-right {
-    padding: 15px 0px 15px 0px
-}
-
+/*---------Headers---------*/
 .topcontact {
     color: #fff;
     height: 35px;
@@ -149,64 +75,134 @@ h4 {
     background-color: royalblue;
     padding-top: 5px;
     font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#navbarNav > ul > li.nav-item.booking-button.d-none.d-lg-block {
+    background-color: rgb(256,252,76);
+    color: black;
+    font-weight: 500;}
 
+/*----Slider-----*/
+.carousel-item {
+    height: 18rem;
+    background: rgb(0, 0, 0);
+    color: white;
+    position: relative;}
 
+/*---------Footers---------*/
+.footer {
+    height: 120px;
+    line-height: 1px;}
+.footer-text-right {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 15px;}
+.footer-left {
+    text-align: left;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 0.8rem;}
+.social-bottom {
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;}
+
+/*---------Nav Styling---------*/
+.navbar-nav {
+    right: 30px;
+    position: absolute;
+    padding: 0;
+    border-radius: 5%;}
+.nav a {
+    position: relative;}
+.nav-item {
+    padding-right: 17px;
+    padding-left: 18px;
+    border-radius: 20px;}
+.active { 
+    text-decoration: underline 4px;
+    text-underline-offset: 2px;
+    font-weight: 600;}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(65,105,225, 1);
+    font-size: 1.1em;}
+
+/*---------Button Styling---------*/
+.button-border {
+    padding: 0px 14px;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    font-size: smaller;}
+.sm-tab-text-btn {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 220px;
+    border-radius: 25px;}
+.accordion-button {
+    background-color: rgb(256,252,76, 0.5);
+    display: block;
+    text-align: center;
+    border: 1px solid gray;}
+h3.get-in-contact {
+    display: block;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 25px;
+    background-color: yellow;
+    border-radius: 25px;
+    font-weight: 600;
+    color: blue;}
+.nav-pills .nav-link.active {
+    background-color: blue;
+    border-radius: 20px;}
+
+/*-----Icon and subheader-----*/
+.icon-size {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 25px;}
+.icon-link {
+    color: #fff;
+    padding-top: 2px;}
 .social-top {
     color: #fff;
     height: 35px;
     text-align: center;
     font-weight: 100;
-    background-color: royalblue;
+    background-color: royalblue;}
 
-}
-
-.icon-size {
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    font-size: 25px;
-}
-
-.icon-link {
-    color: #fff;
-    padding-top: 2px;
-}
-
-.no-padding {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
-.social-bottom {
-    height: 35px;
-    text-align: center;
-    padding-top: 10px;
-}
-
+/*------Spacer & divider------*/
 .our-team {
     color: #fff;
     height: 40px;
     font-size: 200%;
     background: rgb(254,255,245);
-    background: linear-gradient(180deg, rgba(254,255,245,1) 0%, rgba(18,66,255,1) 7%, rgba(17,62,239,1) 93%, rgba(255,255,255,1) 100%);
-}
-
+    background: linear-gradient(180deg, rgba(254,255,245,1) 0%, rgba(18,66,255,1) 7%, rgba(17,62,239,1) 93%, rgba(255,255,255,1) 100%);}
 .spacer {
     background-color: rgb(256,252,76);
     height: 55px;
     text-align: center;
-    font-size: 200%;
-}
+    font-size: 200%;}
 
-.row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-
+/*---------Picture Styling---------*/
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.65;}
+.profilepic {
+    border-radius: 50%;
+    margin: auto 0;
+    top: 0;
+    width: 100%;
+    padding: 20%;}
 .gym-pic {
     display: block;
     margin-left: auto;
@@ -218,247 +214,7 @@ h4 {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 90%;
-    max-height: 90%;
-}
-
-#navbarNav > ul > li.nav-item.booking-button.d-none.d-lg-block {
-    background-color: rgb(256,252,76);
-    color: black;
-    font-weight: 500;
-}
-
-.button-border {
-    padding: 0px 14px;
-    border-radius: 25px;
-    background-color: royalblue;
-    color: white;
-    font-size: smaller;
-}
-
-#basic-addon1 {
-    width: 125px;
-    background-color: rgb(256,252,76,0.5);
-    font-weight: 500;
-}
-
-.contact-top{
-    text-align: center;
-    text-transform: uppercase;
-}
-
-
-
-.footer-text-right {
-    color: #fff;
-    text-align: center;
-    font-weight: 500;
-    padding-bottom: 15px;
-}
-
-.col-padding{
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-#send-button {
-    background-color: rgba(17,62,239,1);
-    border-radius: 25px;
-    margin-bottom: 25px;
-}
-
-.map-opening {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.day {
-    width: 100px;
-    font-weight: 500;
-}
-
-.opening {
-    color: #fff;
-}
-
-.opening-time {
-    width: 200px;
-    color: #fff;
-    font-weight: 600;
-    line-height: 25px;
-    padding: 40px 0px 20px 25px;
-    font-size: 24px;
-}
-
-div > table {
-    margin: auto;
-}
-
-.map-margin {
-    padding: 20px;
-}
-
-.opening-message {
-    padding-top: 25px;
-}
-
-.tab {
-    height: 200px;
-    color: black;
-    font-size: 3.7vw;
-    text-align: center;
-    line-height: 100%;
-    border: 1px solid gray;
-    padding-top: 15px;
-    border-radius: 0px 0px 10px 10px ;
-}
-
-.pt-tab {
-    background-image: url(/assets/images/pt-icon.png);
-    background-color: rgb(255, 255, 255);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: contain;
-}
-
-
-.sm-tab {
-    background-image: url(/assets/images/sm-icon.png);
-    background-color: rgb(255, 255, 255);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: contain;
-}
-
-
-.gm-tab {
-    background-image: url(/assets/images/gm-icon.png);
-    background-color: rgb(255, 255, 255);
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-size: contain;
-}
-
-.prime-tab {
-    padding: 0px;
-}
-
-.pt-header {
-    color: #fff;
-    text-align: center;
-    font-size: 24px;
-    padding-top: 15px;
-}
-
-.accordion-button:not(.collapsed) {
-    color: #fff;
-    background-color: rgba(17,62,239,1);
-    font-size: 20px;
-    
-}
-
-.tab-pos {
-    margin-top: 25px;
-}
-
-.top-tabs {
-    margin-top: 25px;
-}
-
-#myTabContent > div.active {
-    text-decoration: none;
-}
-
-tbody, td, tfoot, th, thead, tr {
-    width: 33%;
-    padding-right: 6px;
-    line-height: 24px;
-}
-
-.sm-tab-text-btn > a {
-    color: #fff;
-}
-
-.sm-tab-text-btn {
-    display: block;
-    margin: auto;
-    margin-bottom: 20px;
-    width: 220px;
-    border-radius: 25px;
-}
-
-.hide-tabs {
-    display: none;
-}
-
-.accordion-button {
-    background-color: rgb(256,252,76, 0.5);
-    display: block;
-    text-align: center;
-    border: 1px solid gray;
-}
-
-.acc-pt-pic {
-    width: 100%;
-    display: block;
-    margin: auto;
-    border-radius: 15px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.acc-tab-pic {
-    display: block;
-    border-radius: 15px;
-    margin: auto;
-    margin-bottom: 20px;
-}
-
-.acc-ind-pt-pic {
-    width: 75%;
-    max-width: 300px;
-    aspect-ratio: true;
-    display: block;
-    margin: auto;
-    border-radius: 15px;
-}
-
-h3.get-in-contact {
-    display: block;
-    margin: auto;
-    width: 250px;
-    margin-bottom: 25px;
-    background-color: yellow;
-    border-radius: 25px;
-    font-weight: 600;
-    color: blue;
-}
-
-.icon {
-    height: 30px;
-    margin: 0;
-    padding: 0;
-}
-
-.active,p {
-    text-decoration: none;
-    text-underline-offset: 0px;
-}
-
-.list-group {
-    max-width: 450px;
-    position: relative;
-    margin: auto;
-    padding: 20px 0px 20px 0px;
-}
-
-.list-group-item{
-    width: 100%;
-}
-
-.list-group-item-info {
-    color: black;
-    text-align: center;
-}
-
+    max-height: 90%;}
 .membership-img {
     background-image: url(/assets/images/barbell.jpeg);
     background-color: rgb(255, 255, 255);
@@ -466,45 +222,114 @@ h3.get-in-contact {
     background-repeat: no-repeat; 
     background-size: cover;
     opacity: 0.85;
-    margin: 0;
-}
-
-.list-group {
-    padding: 30px;
-}
-
-.get-started {
-    background-color: blue;
-}
-
-.get-started > a {
+    margin: 0;}
+.pt-tab {
+    background-image: url(/assets/images/pt-icon.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;}
+.sm-tab {
+    background-image: url(/assets/images/sm-icon.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;}
+.gm-tab {
+    background-image: url(/assets/images/gm-icon.png);
+    background-color: rgb(255, 255, 255);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;}
+.acc-pic {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;}
+.acc-tab-pic {
+    display: block;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 20px;}
+.acc-ind-pt-pic {
+    width: 75%;
+    max-width: 300px;
+    aspect-ratio: true;
+    display: block;
+    margin: auto;
+    border-radius: 15px;}
+    
+/*--------Text styling--------------*/
+a {
+    text-decoration: none;}
+.slider-text {
+    width: 70%;}
+h2, h4 {
+    text-align: center;}
+.contact-top{
+    text-align: center;
+    text-transform: uppercase;}
+.day {
+    width: 100px;
+    font-weight: 500;}
+.active,p {
+    text-decoration: none;
+    text-underline-offset: 0px;}
+.membership-agreement {
     color: #fff;
-}
+    text-align: center;}
+#myTabContent > div.active {
+    text-decoration: none;}
 
+/*-----List Group Styling------*/
+.list-group {
+    max-width: 450px;
+    position: relative;
+    margin: auto;
+    padding: 20px 0px 20px 0px;}
+.list-group-item{
+    width: 100%;}
+.list-group-item-info {
+    color: black;
+    text-align: center;}
 .list-header {
     color: blue;
     font-weight: 700;
-    margin: 0;
-}
+    margin: 0;}
 
-.accordion-body {
-    padding: 0;
-}
+/*-----Form Styling-----*/
+#basic-addon1 {
+    width: 125px;
+    background-color: rgb(256,252,76,0.5);
+    font-weight: 500;}
+#send-button {
+    background-color: rgba(17,62,239,1);
+    border-radius: 25px;
+    margin-bottom: 25px;}
 
-.membership-agreement {
+/*------------Opening Times--------------*/
+.opening-time {
+    width: 200px;
     color: #fff;
-    text-align: center;
-}
+    font-weight: 600;
+    line-height: 25px;
+    padding: 40px 0px 20px 25px;
+    font-size: 24px;}
 
-.membership-contact {
-    margin-top: 35px;
-}
+/*--------Table Styling---------------*/
+tbody, td, tfoot, th, thead, tr {
+    width: 33%;
+    padding-right: 6px;
+    line-height: 24px;}
 
-a {
-    text-decoration: none;
-}
-
-.nav-pills .nav-link.active {
-    background-color: blue;
-    border-radius: 20px;
-}
+/*-----Accordion styling------*/
+.icon {
+    height: 30px;
+    margin: 0;
+    padding: 0;}
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: rgba(17,62,239,1);
+    font-size: 20px;}
