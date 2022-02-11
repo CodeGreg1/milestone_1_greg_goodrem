@@ -17,6 +17,8 @@
     color: #fff;}
 .sm-tab-text-btn > a {
     color: #fff;}
+.shade {
+    background-color: rgba(0, 26, 255, .1);}
 
 /*---------Special Paddings and margins---------*/
 .navbar-brand {
@@ -55,7 +57,7 @@ div > table {
 .tab-pos {
     margin-top: 25px;}
 .top-tabs {
-    margin-top: 25px;}
+    margin-top: 15px;}
 .opening {
     color: #fff;}
 .container {
@@ -65,6 +67,10 @@ div > table {
     right: 0;
     top: 0;
     padding-bottom: 50px;}
+.tab-pane {
+    margin-top: 20px;}
+.flex-column{
+    margin: 10px 0px 0px 10px;}
 
 /*---------Headers---------*/
 .topcontact {
@@ -241,14 +247,17 @@ h3.get-in-contact {
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;}
-.acc-pic {
-    width: 100%;
+.acc-pt-pic {
+    max-width: 100%;
+    max-height: 250px;
     display: block;
     margin: auto;
     border-radius: 15px;
     margin-top: 10px;
     margin-bottom: 20px;}
 .acc-tab-pic {
+    max-width: 90%;
+    max-height: 200px;
     display: block;
     border-radius: 15px;
     margin: auto;
@@ -276,12 +285,16 @@ h2, h4 {
     font-weight: 500;}
 .active,p {
     text-decoration: none;
-    text-underline-offset: 0px;}
+    text-underline-offset: 0px;
+    font-weight: 400;}
 .membership-agreement {
     color: #fff;
     text-align: center;}
 #myTabContent > div.active {
     text-decoration: none;}
+.text-smaller{
+    font-size: smaller;
+}
 
 /*-----List Group Styling------*/
 .list-group {
@@ -318,12 +331,6 @@ h2, h4 {
     padding: 40px 0px 20px 25px;
     font-size: 24px;}
 
-/*--------Table Styling---------------*/
-tbody, td, tfoot, th, thead, tr {
-    width: 33%;
-    padding-right: 6px;
-    line-height: 24px;}
-
 /*-----Accordion styling------*/
 .icon {
     height: 30px;
@@ -333,3 +340,7 @@ tbody, td, tfoot, th, thead, tr {
     color: #fff;
     background-color: rgba(17,62,239,1);
     font-size: 20px;}
+
+.just-mid {
+    justify-content: center;
+}
