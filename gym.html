@@ -13,10 +13,10 @@
 <body>
     <header>
       <div>
-        <!----Navigation bar--->
+        <!--Navigation bar-->
         <nav class="navbar navbar-expand-md navbar-light fixed-top shadow p-3 mb-4 bg-white">
           <div class="container-fluid no-padding">
-            <a class="navbar-brand" href="index.html"><img src="assets/images/logo_blue.png" height="60px"></a>
+            <a class="navbar-brand" href="index.html"><img class="brand-logo" src="assets/images/logo_blue.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" data-target="#navbarSupportedContent" aria-controls="navbarNav navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -96,10 +96,10 @@
                 <!--Tabs for PT-->
                 <div class="d-flex top-tabs shade">
                   <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab tabcol" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Indoors</button>
-                    <button class="nav-link" id="v-pills-profile-tab tabcol" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Outdoors</button>
-                    <button class="nav-link" id="v-pills-messages-tab tabcol" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Online</button>
-                    <button class="nav-link" id="v-pills-settings-tab tabcol" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Programs</button>
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Indoors</button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Outdoors</button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Online</button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Programs</button>
                   </div>
                   <div class="tab-content" id="v-pills-tabContent">
                   <!--Indoor tab-->
@@ -176,7 +176,7 @@
                             <p></p>
                           </div>
                           <div class="col-12 col-sm-5 no-padding">
-                            <img class="acc-tab-pic" src="/assets/images/tab-pic-prog.png" alt="" width="250px">
+                            <img class="acc-tab-pic" src="/assets/images/tab-pic-prog.png" alt="">
                           </div>
                        </div>
                       </div>
@@ -262,7 +262,6 @@
              </div>
           </div>
         </div>
-      </div>
       <!--Form-->
       <form id="contactform">
         <div class="container-fluid">
@@ -270,7 +269,7 @@
             <h1 class="contact-top membership-contact">Any questions or if you'd like a FREE Injury Assessment</h1>
             <h2>Get in contact by filling out your information on the form below.</h2>
           </div>
-          <dv class="row justify-content-center">
+          <div class="row justify-content-center">
             <div class="col-12 col-sm-10 col-lg-8 col-xl-6">
               <div class="input-group mb-1">
                 <span class="input-group-text" id="basic-addon1">First Name</span>
@@ -292,18 +291,16 @@
               <button type="submit" class="btn btn-primary" id="send-button">Send Message</button>
             </div>
          </div>
-        </dv>
+        </div>
         </div>
       </form>
       <!--Opening Times-->
       <div class="container-fluid map-opening">
         <div class="row">
           <div class="col-12 col-md-4 text-center opening">
-            <table>
-              <th class="opening-time">
+            <p class="opening-time">
                     Opening Times
-              </th>
-            </table>
+            </p>
             <table>
               <tr>
                 <td class="day">Monday</td>
@@ -336,15 +333,15 @@
             </table>
             <p class="opening-message">Although open for use during these times we use a booking system to stop the studio getting too busy. So please book or contact us before you come to the gym.</p>
           </div>
-          <div class="col-12 col-md-8 map-margin"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1240.89847446817!2d0.795275!3d51.535284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d658dbbe5f7866!2sBalanced%20Training!5e0!3m2!1sen!2suk!4v1643890264291!5m2!1sen!2suk" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <div class="col-12 col-md-8 map-margin"><iframe class="iframe-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1240.89847446817!2d0.795275!3d51.535284!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8d658dbbe5f7866!2sBalanced%20Training!5e0!3m2!1sen!2suk!4v1643890264291!5m2!1sen!2suk" loading="lazy"></iframe>
           </div>
         </div>
       </div>
     </section>
-    <!---Footer---->
+    <!--Footer-->
     <footer>
       <div class="row footer bg-dark justify-content-center">
-        <!---Footer Left---->
+        <!--Footer Left-->
         <div class="col-7 col-md-5 footer-left">
           <p>Unit A3</p> 
           <p class="word-wrap">Seedbed Business Centre,</p>
@@ -354,7 +351,7 @@
           <br>
           <p><i class="bi bi-telephone-fill"></i> 01702 382390</p>
         </div>
-        <!---Footer Right---->
+        <!--Footer Right-->
         <div class="col-5 col-md-5 footer-right">
           <div class="footer-text-right">Follow us on</div>
           <div class="social-bottom row">

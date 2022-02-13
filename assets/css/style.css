@@ -263,7 +263,8 @@ h3.get-in-contact {
     display: block;
     border-radius: 15px;
     margin: auto;
-    margin-bottom: 20px;}
+    margin-bottom: 20px;
+    width: 250px;}
 .acc-ind-pt-pic {
     width: 75%;
     max-width: 300px;
