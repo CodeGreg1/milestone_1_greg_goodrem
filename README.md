@@ -1,10 +1,10 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Greg Goodrem Milestone Project 1</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://github.com/CodeGreg1/milestone_1_greg_goodrem)
 
-This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
+This is the main website for Balanced Training, it is designed to be responsive to multiple devices and made easy to navigate for the multiple roles people would visit the website for, these include information on personal training, sports massage, memberships and courses.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src="assets/images/mock-up.png"></h2>
 
 ## User Experience (UX)
 
