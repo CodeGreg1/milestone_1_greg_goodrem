@@ -38,9 +38,11 @@ This is the main website for Balanced Training, it is designed to be responsive 
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Home Page Wireframe - [View](https://github.com/CodeGreg1/milestone_1_greg_goodrem/assets/images/home-wireframe.png)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Gym Page Wireframe - [View](https://github.com/)
+
+    -   Courses Page Wireframe - [View]()
 
     -   Contact Us Page Wireframe - [View](https://github.com/)
 
