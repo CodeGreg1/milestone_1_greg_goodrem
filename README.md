@@ -36,7 +36,7 @@ This is the main website for Balanced Training, it is designed to be responsive 
     -   #### Imagery
         -   Imagery is important, the pictures are in the most part real and not so much commercial stock images. We have taken photos so that users can connect with Balanced Training as a more personal and community focused place.
 
-*   ### Wireframes
+-   ### Wireframes
     -   Home Page Wireframe - [View](assets/images/home-wireframe.png)
 
     -   Gym Page Wireframe - [View](https://codegreg1.github.io/milestone_1_greg_goodrem/assets/images/gym-wireframe.png)
