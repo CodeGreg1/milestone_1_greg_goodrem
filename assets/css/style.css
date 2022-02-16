@@ -71,6 +71,8 @@ div > table {
     margin-top: 20px;}
 .flex-column{
     margin: 10px 0px 0px 10px;}
+.just-mid {
+    justify-content: center;}
 
 /*---------Headers---------*/
 .topcontact {
@@ -83,9 +85,11 @@ div > table {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 #navbarNav > ul > li.nav-item.booking-button.d-none.d-lg-block {
-    background-color: rgb(256,252,76);
+    background-color: rgb(255,252,76);
     color: black;
     font-weight: 500;}
+.brand-logo {
+    height: 60px;}
 
 /*----Slider-----*/
 .carousel-item {
@@ -147,7 +151,7 @@ div > table {
     width: 220px;
     border-radius: 25px;}
 .accordion-button {
-    background-color: rgb(256,252,76, 0.5);
+    background-color: rgb(255,252,76, 0.5);
     display: block;
     text-align: center;
     border: 1px solid gray;}
@@ -188,12 +192,12 @@ h3.get-in-contact {
     background: rgb(254,255,245);
     background: linear-gradient(180deg, rgba(254,255,245,1) 0%, rgba(18,66,255,1) 7%, rgba(17,62,239,1) 93%, rgba(255,255,255,1) 100%);}
 .spacer {
-    background-color: rgb(256,252,76);
+    background-color: rgb(255,252,76);
     height: 55px;
     text-align: center;
     font-size: 200%;}
 
-/*---------Picture Styling---------*/
+/*---------Picture Styling & Map---------*/
 .overlay-image {
     position: absolute;
     width: 100%;
@@ -272,6 +276,10 @@ h3.get-in-contact {
     display: block;
     margin: auto;
     border-radius: 15px;}
+.iframe-map {
+    width: 100%;
+    height: 400px;
+    border: 0;}
     
 /*--------Text styling--------------*/
 a {
@@ -296,8 +304,7 @@ h2, h4 {
 #myTabContent > div.active {
     text-decoration: none;}
 .text-smaller{
-    font-size: smaller;
-}
+    font-size: smaller;}
 
 /*-----List Group Styling------*/
 .list-group {
@@ -318,7 +325,7 @@ h2, h4 {
 /*-----Form Styling-----*/
 .basic-addon1 {
     width: 125px;
-    background-color: rgb(256,252,76,0.5);
+    background-color: rgb(255, 252, 76, 0.5);
     font-weight: 500;}
 #send-button {
     background-color: rgba(17,62,239,1);
@@ -345,16 +352,3 @@ h2, h4 {
     color: #fff;
     background-color: rgba(17,62,239,1);
     font-size: 20px;}
-
-.just-mid {
-    justify-content: center;
-}
-
-.iframe-map {
-    width: 100%;
-    height: 400px;
-    border: 0;
-}
-
-.brand-logo {
-    height: 60px;}
