@@ -316,7 +316,7 @@ h2, h4 {
     margin: 0;}
 
 /*-----Form Styling-----*/
-#basic-addon1 {
+.basic-addon1 {
     width: 125px;
     background-color: rgb(256,252,76,0.5);
     font-weight: 500;}

@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-md navbar-light fixed-top shadow p-3 mb-4 bg-white">
           <div class="container-fluid no-padding">
             <a class="navbar-brand" href="index.html"><img class="brand-logo" src="assets/images/logo_blue.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" data-target="#navbarSupportedContent" aria-controls="navbarNav navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -215,11 +215,11 @@
                 </div>
                 <!--Test start-->
                 <div class="top-tabs">
-                  <div class="nav nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#l3sports-massage" type="button" role="tab" aria-controls="l3sports-massage" aria-selected="true">Level 3 Diploma in Sports Massage</button>
-                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#l4sports-massage" type="button" role="tab" aria-controls="l4sports-massage" aria-selected="false">Level 4 Certificate in Sports Massage</button>
+                  <div class="nav nav-pills me-3" id="sm-pills-tab" role="tablist" aria-orientation="vertical">
+                    <button class="nav-link active" id="sm-pills-home-tab" data-bs-toggle="pill" data-bs-target="#l3sports-massage" type="button" role="tab" aria-controls="l3sports-massage" aria-selected="true">Level 3 Diploma in Sports Massage</button>
+                    <button class="nav-link" id="sm-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#l4sports-massage" type="button" role="tab" aria-controls="l4sports-massage" aria-selected="false">Level 4 Certificate in Sports Massage</button>
                    </div>
-                  <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-content" id="sm-pills-tabContent">
                   <!--Level 2 Gym Instructor tab-->
                     <div class="tab-pane fade show active" id="l3sports-massage" role="tabpanel" aria-labelledby="v-pills-home-tab">
                       <div class="container-fluid">
@@ -320,20 +320,20 @@
           <div class="row justify-content-center">
             <div class="col-12 col-sm-10 col-lg-8 col-xl-6">
               <div class="input-group mb-1">
-                <span class="input-group-text" id="basic-addon1">First Name</span>
-                <input type="text" class="form-control" placeholder="First Name" aria-label="first-name" aria-describedby="basic-addon1" required>
+                <span class="input-group-text basic-addon1" >First Name</span>
+                <input type="text" id="first-name" class="form-control" placeholder="First Name" aria-label="first-name" aria-describedby="first-name" required>
               </div>
               <div class="input-group mb-1">
-                  <span class="input-group-text" id="basic-addon1">Last Name</span>
-                  <input type="text" class="form-control" placeholder="Last Name" aria-label="last-name" aria-describedby="basic-addon1">
+                  <span class="input-group-text basic-addon1">Last Name</span>
+                  <input type="text" id="last-name" class="form-control" placeholder="Last Name" aria-label="last-name" aria-describedby="last-name">
               </div>
               <div class="input-group mb-1">
-                <span class="input-group-text" id="basic-addon1">Email Address</span>
-                <input type="email" class="form-control" placeholder="Email Address" aria-label="email" aria-describedby="basic-addon1" required>
+                <span class="input-group-text basic-addon1">Email Address</span>
+                <input type="email" id="email-address" class="form-control" placeholder="Email Address" aria-label="email" aria-describedby="email-address" required>
               </div>
               <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1">Message:</span>
-                <textarea class="form-control" placeholder="Ask us anything" aria-label="message-area"></textarea>
+                <span class="input-group-text basic-addon1">Message:</span>
+                <textarea id="message-area" class="form-control" placeholder="Ask us anything" aria-label="message-area"></textarea>
               </div>
               <div class="text-center send-message-button">
               <button type="submit" class="btn btn-primary" id="send-button">Send Message</button>
