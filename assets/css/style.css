@@ -294,10 +294,10 @@ h2, h4 {
 .day {
     width: 100px;
     font-weight: 500;}
-/*.active,p {
+.active,p {
     text-decoration: none;
     text-underline-offset: 0px;
-    font-weight: 400;}*/
+    font-weight: 400;}
 .membership-agreement {
     color: #fff;
     text-align: center;}
