@@ -228,7 +228,7 @@ h3.get-in-contact {
     max-width: 90%;
     max-height: 90%;}
 .membership-img {
-    background-image: url(/assets/images/barbell.jpeg);
+    background-image: url(assets/images/barbell.jpeg);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
@@ -236,19 +236,19 @@ h3.get-in-contact {
     opacity: 0.85;
     margin: 0;}
 .pt-tab {
-    background-image: url(/assets/images/pt-icon.png);
+    background-image: url(assets/images/pt-icon.png);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;}
 .sm-tab {
-    background-image: url(/assets/images/sm-icon.png);
+    background-image: url(assets/images/sm-icon.png);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: contain;}
 .gm-tab {
-    background-image: url(/assets/images/gm-icon.png);
+    background-image: url(assets/images/gm-icon.png);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
