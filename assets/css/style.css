@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-
+font-family: 'Oswald', sans-serif;
+/*@import url('https://fonts.googleapis.com/css2?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+*/
 /*---------Colours---------*/
 #active > a {
     color: royalblue;}
@@ -19,6 +20,10 @@
     color: #fff;}
 .shade {
     background-color: rgba(0, 26, 255, .1);}
+.chev-down {
+    color:rgba(17,62,239,1);}
+.chev-up {
+    color:rgba(255,252,76, 0.5);}
 
 /*---------Special Paddings and margins---------*/
 .navbar-brand {
