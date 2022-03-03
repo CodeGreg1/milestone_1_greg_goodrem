@@ -1,6 +1,5 @@
-font-family: 'Oswald', sans-serif;
-/*@import url('https://fonts.googleapis.com/css2?family=Oswald:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
-*/
+/*---Font---*/
+body {font-family: 'Oswald', sans-serif;}
 /*---------Colours---------*/
 #active > a {
     color: royalblue;}
@@ -87,8 +86,7 @@ div > table {
     font-weight: 100;
     background-color: royalblue;
     padding-top: 5px;
-    font-size: 18px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    font-size: 18px;}
 #navbarNav > ul > li.nav-item.booking-button.d-none.d-lg-block {
     background-color: rgb(255,252,76);
     color: black;
@@ -134,7 +132,7 @@ div > table {
     padding-right: 17px;
     padding-left: 18px;
     border-radius: 20px;}
-.active { 
+#active { 
     text-decoration: underline 4px;
     text-underline-offset: 2px;
     font-weight: 600;}
@@ -233,13 +231,16 @@ h3.get-in-contact {
     max-width: 90%;
     max-height: 90%;}
 .membership-img {
-    background-image: url(assets/images/barbell.jpeg);
+    background-image: url(/assets/images/barbell.jpeg);
     background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     opacity: 0.85;
-    margin: 0;}
+    margin: 0;
+    padding: 0;
+}
+
 .pt-tab {
     background-image: url(assets/images/pt-icon.png);
     background-color: rgb(255, 255, 255);
@@ -357,3 +358,6 @@ h2, h4 {
     color: #fff;
     background-color: rgba(17,62,239,1);
     font-size: 20px;}
+.bi-instagram:hover, .bi-facebook:hover, .bi-linkedin:hover,.hover:hover {
+    color: yellow;
+}
