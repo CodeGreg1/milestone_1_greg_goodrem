@@ -59,7 +59,8 @@ div > table {
     margin-left: 0;
     margin-right: 0;}
 .list-group {
-    padding: 30px;}
+    padding: 30px;
+    z-index: -1;}
 .tab-pos {
     margin-top: 25px;}
 .top-tabs {
@@ -181,7 +182,9 @@ h3.get-in-contact {
     font-size: 25px;}
 .icon-link {
     color: #fff;
-    padding-top: 2px;}
+    padding-top: 2px;
+    margin-right: 0;
+    margin: 0;}
 .social-top {
     color: #fff;
     height: 35px;
@@ -233,15 +236,12 @@ h3.get-in-contact {
     max-width: 90%;
     max-height: 90%;}
 .membership-img {
-    background-image: url(/assets/images/barbell.jpeg);
+    background: url(../images/barbell.jpeg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
     opacity: 0.85;
-    margin: 0;
-    padding: 0;
-}
-
+    margin: auto 0;}
 .pt-tab {
     background-image: url(assets/images/pt-icon.png);
     background-color: rgb(255, 255, 255);
@@ -359,3 +359,4 @@ h2, h4 {
     color: #fff;
     background-color: rgba(17,62,239,1);
     font-size: 20px;}
+div.col-3 {margin-right: 0;}
