@@ -23,6 +23,8 @@ body {font-family: 'Oswald', sans-serif;}
     color:rgba(17,62,239,1);}
 .chev-up {
     color:rgba(255,252,76, 0.5);}
+.bi-instagram:hover, .bi-facebook:hover, .bi-linkedin:hover,.hover:hover {
+        color: yellow;}
 
 /*---------Special Paddings and margins---------*/
 .navbar-brand {
@@ -232,7 +234,6 @@ h3.get-in-contact {
     max-height: 90%;}
 .membership-img {
     background-image: url(/assets/images/barbell.jpeg);
-    background-color: rgb(255, 255, 255);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -358,6 +359,3 @@ h2, h4 {
     color: #fff;
     background-color: rgba(17,62,239,1);
     font-size: 20px;}
-.bi-instagram:hover, .bi-facebook:hover, .bi-linkedin:hover,.hover:hover {
-    color: yellow;
-}
