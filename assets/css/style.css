@@ -165,6 +165,7 @@ h3.get-in-contact {
     display: block;
     margin: auto;
     width: 250px;
+    margin-top: 20px;
     margin-bottom: 25px;
     background-color: yellow;
     border-radius: 25px;
@@ -359,4 +360,6 @@ h2, h4 {
     color: #fff;
     background-color: rgba(17,62,239,1);
     font-size: 20px;}
-div.col-3 {margin-right: 0;}
+.top-margin {
+    margin-top: 20px;
+}
