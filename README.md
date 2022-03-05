@@ -49,7 +49,15 @@ This is the main website for Balanced Training, it is designed to be responsive 
 
 -   Responsive on all device sizes
 
--   Interactive elements
+-   Interactive elements such as the slider which goes through the main 3 areas of the website (Gym/Courses/Booking).
+
+-   The booking systemcurrently used is calendly which in the future I would look to use API and integrate into the website.
+
+-   There is a sub-header which has both contacts to social media and a link to google maps for directions from the users current location.
+
+-   There are elements set to be viewable only at certain size screens.
+
+-   On the gym and courses pages I have used accordions to try and contain all basic information to one page for that particular part of the Balanced Training business.
 
 ## Technologies Used
 
@@ -127,6 +135,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   On some mobile devices the Slider Image pushes the size of screen out more than any of the other content on the page but doesn't effect the overall usage of this element.
+
+-   I found several issues that were quite challenging to fix such as the accordion and tabs to function smoothly using ARIA controls however I think I worked it all out.
+
+-   I also found some of the images had difficulty loading depending on how I added them to the HTML either directly or using CSS but again figured out what I required to have the site look how I want it to.
 
 ## Credits
 
