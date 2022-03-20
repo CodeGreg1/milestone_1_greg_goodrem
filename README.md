@@ -1,7 +1,6 @@
 <h1 align="center">Greg Goodrem Milestone Project 1</h1>
 
-[View the live project here.](https://github.com/CodeGreg1/milestone_1_greg_goodrem)
-
+[View the live project here.](https://codegreg1.github.io/milestone_1_greg_goodrem/)
 This is the main website for Balanced Training, it is designed to be responsive to multiple devices and made easy to navigate for the multiple roles people would visit the website for, these include information on personal training, sports massage, memberships and courses.
 
 <h2 align="center"><img src="assets/images/mock-up.png"></h2>
