@@ -192,6 +192,9 @@ h3.get-in-contact {
     text-align: center;
     font-weight: 100;
     background-color: royalblue;}
+.phone {
+    visibility: show;
+}
 
 /*------Spacer & divider------*/
 .our-team {
@@ -362,4 +365,8 @@ h2, h4 {
     font-size: 20px;}
 .top-margin {
     margin-top: 20px;
+}
+@media (max-width: 576px) {
+    .phone {
+    visibility: hidden;}
 }
