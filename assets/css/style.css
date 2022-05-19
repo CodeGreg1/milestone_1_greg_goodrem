@@ -193,7 +193,7 @@ h3.get-in-contact {
     font-weight: 100;
     background-color: royalblue;}
 .phone {
-    visibility: show;
+    visibility: visible;
 }
 
 /*------Spacer & divider------*/
