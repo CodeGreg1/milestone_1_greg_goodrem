@@ -12,7 +12,9 @@ body {font-family: 'Oswald', sans-serif;}
 .map-opening {
     background-color: rgba(0, 0, 0, 0.5);}
 .get-started {
-    background-color: blue;}
+    background-color: blue;
+    text-align: center;
+    cursor:pointer;}
 .get-started > a {
     color: #fff;}
 .sm-tab-text-btn > a {
