@@ -176,6 +176,10 @@ h3.get-in-contact {
 .nav-pills .nav-link.active {
     background-color: blue;
     border-radius: 20px;}
+.btn {
+    max-width: 60%;
+    margin: auto;
+}
 
 /*-----Icon and subheader-----*/
 .icon-size {
