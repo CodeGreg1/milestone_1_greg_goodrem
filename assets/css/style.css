@@ -344,7 +344,7 @@ h2, h4 {
     width: 125px;
     background-color: rgb(255, 252, 76, 0.5);
     font-weight: 500;}
-#send-button {
+.send-button {
     background-color: rgba(17,62,239,1);
     border-radius: 25px;
     margin-bottom: 25px;}
@@ -376,3 +376,18 @@ h2, h4 {
     .phone {
     visibility: hidden;}
 }
+
+/* ----- Contact Form styling ------ */
+/* .form {
+    width: 100%;
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 30px;
+}
+
+label {
+    width: 100px;}
+
+input,textarea {
+    width: 35%;
+} */
