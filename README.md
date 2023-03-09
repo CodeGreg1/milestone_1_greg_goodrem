@@ -29,7 +29,8 @@ This is the main website for Balanced Training, it is designed to be responsive 
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are Blue and Yellow.
+        -   The two main colours used are Blue and Yellow. You can see that they have a good ratio when used together. these will be used around the site more as accented and eye drawing colours.
+<img src="assets/images/readme_pics/contrast-colour.png">
     -   #### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean and clear font which makes it really easy to read exactly what is written on site.
     -   #### Imagery
@@ -104,6 +105,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcodegreg1.github.io%2Fmilestone_1_greg_goodrem%2Findex.html) - Results - No Errors or Warnings
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcodegreg1.github.io%2Fmilestone_1_greg_goodrem%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) - Results No Errors
+-   [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%233F67DA%0D%0A%23FEFC4C&es-color-form__tile-size=regular&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) - Gives a rating of AA for the Colour scheme used.
+- Google Lighthouse reports below for all pages.
+<img src="assets/images/readme_pics/lighthouse-index.png">
+<img src="assets/images/readme_pics/lighthouse-gym.png">
+<img src="assets/images/readme_pics/lighthouse-courses.png">
+<img src="assets/images/readme_pics/lighthouse-contact.png">
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -189,6 +196,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Deployment
 
+### GitHub Pages
+
+I deployed the project onto GitHub Pages using the following steps:
+
+1. Go to my GitHub repository for the project this is the link. [My GitHub Repository for Milestone 1 Project](https://github.com/CodeGreg1/milestone_1_greg_goodrem)
+2. Locate the 'Settings' button for the repository and click.
+3. Scroll down the Settings page until you see the "Pages" Section on your left.
+4. You need to change the "Source", by clicking the dropdown and choose "deploy from a branch".
+5. You then need to change branch from 'None' to 'main'.
+7. The page will automatically refresh.
+7. At the top of the 'Pages' section, look to locate the now published site [link](https://codegreg1.github.io/milestone_1_greg_goodrem/).
+
+### Forking the GitHub Repository
+
+You can fork the GitHub Repository and make a copy of the original repository on your GitHub account so you can view or change elements without affecting the original repository.
+
+1. Log in to GitHub and locate the [Milestone 1 Repository](https://codegreg1.github.io/milestone_1_greg_goodrem/)
+2. Above the Settings tab and to the right you'll see a dropdown labelled "Fork".
+3. This will give you a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [Milestone 1 Repository](https://codegreg1.github.io/milestone_1_greg_goodrem/)
+2. Locate the green 'Code' button.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash.
+5. Change to your working directory where you want the clone to go.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will now be created.
 
 
 ## Credits
@@ -202,11 +238,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Content
 
--   All content was written by the developer.
+-   All content was written by Greg Goodrem.
 
 ### Media
 
--   All Images were created by the developer or previously owned and used by Balanced Training.
+-   All Images were created by Greg Goodrem or previously owned and used by Balanced Training.
 
 
 
