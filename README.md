@@ -3,7 +3,7 @@
 [View the live project here.](https://codegreg1.github.io/milestone_1_greg_goodrem/)
 This is the main website for Balanced Training, it is designed to be responsive to multiple devices and made easy to navigate for the multiple roles people would visit the website for, these include information on personal training, sports massage, memberships and courses.
 
-<h2 align="center"><img src="assets/images/mock-up.png"></h2>
+<h2 align="center"><img src="assets/images/readme_pics/mock-up.webp"></h2>
 
 ## User Experience (UX)
 
@@ -34,7 +34,23 @@ This is the main website for Balanced Training, it is designed to be responsive 
         -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean and clear font which makes it really easy to read exactly what is written on site.
     -   #### Imagery
         -   Imagery is important, the pictures are in the most part real and not so much commercial stock images. We have taken photos so that users can connect with Balanced Training as a more personal and community focused place.
-
+    -   #### Responsive Pages 
+        -   Please see below examples of the responsiveness of the website changing the layout order based on the screen sizes.
+        -   Main Page on Desktop
+        <img src="assets/images/readme_pics/responsive-desktop-mainpage.png">
+        -   Main Page on tablet size screen
+        <img src="assets/images/readme_pics/responsive-tablet-mainpage.png">
+        -   Main Page on phone size screen
+        <img src="assets/images/readme_pics/responsive-phone-mainpage.png">
+        -   Also to add to this you can see the use of multiple dropdowns on other pages. The purpose of these were to enable the different types of visitors to go directly to their desired information as the website offers lots of information about different services.
+        -   Tablet view of courses page
+        <img src="assets/images/readme_pics/responsive-tablet-courses.png">
+        -   Tablet view of courses page once the personal training courses were selected.
+        <img src="assets/images/readme_pics/responsive-tablet-courses-dropdown.png">
+        -   Phone view of courses page
+        <img src="assets/images/readme_pics/responsive-phone-courses.png">
+        -   Tablet view of courses page once the personal training courses were selected.
+        <img src="assets/images/readme_pics/responsive-phone-courses-dropdown.png">
 -   ### Wireframes
     -   Home Page Wireframe - [View](https://codegreg1.github.io/milestone_1_greg_goodrem/assets/images/home-wireframe.png)
 
@@ -73,12 +89,14 @@ This is the main website for Balanced Training, it is designed to be responsive 
     - Google fonts were used to import the 'Roboto' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
+1. [Git:](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1.  [EmailJS:](https://www.emailjs.com/) 
+    - EmailJS was used at the end of the project to bring the contact form alive.
 
 ## Testing
 
@@ -123,7 +141,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
         5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
 
-    3. As a Returning Visitor, I want to find the Facebook Group link s
+    3. As a Returning Visitor, I want to find the Facebook and social media links.
 ### Further Testing
 
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -139,11 +157,48 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   I also found some of the images had difficulty loading depending on how I added them to the HTML either directly or using CSS but again figured out what I required to have the site look how I want it to.
 
+## Mandatory Requirements and Commentary
+
+
+#### <strong>Requirement</strong>
+1)  Static front end project: Write custom HTML5 and CSS3 code to create a website of at least 3 pages, or (if using a single scrolling page), at least 3 separate page areas.
+
+#### <strong>Commentary</strong>
+
+1)  I feel I was able to create a Static Front End Website with 4 key pages such as: Home Page, Gym Page, Courses Page, Contact Page. Each of these pages serves a purpose and is also being used by Balanced Training as their actual live website.
+
+#### <strong>Requirement</strong>
+2)   Information Architecture: Incorporate a main navigation menu and structured layout.
+
+#### <strong>Commentary</strong>
+
+2)  Bootstrap was used during this project to give the site a good amount of responsiveness. Emailjs was also incorporated so that people can get in contact and is able to be used in the real world. This is being used frequently by potential customers to get in contact with Balanced Training.
+
+#### <strong>Requirement</strong>
+
+3)  <strong>Documentation</strong>: Write a README.md file for your project that explains what the project does and the value that it provides to its users. 
+-   <strong>Version Control</strong>: Use Git & GitHub for version control.
+-   <strong>Attribution</strong>: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+-   <strong>Deployment</strong>: Deploy the final version of your code to a hosting platform such as GitHub Pages.
+
+#### <strong>Commentary</strong>
+3)  <strong>Documentation</strong>: The value to the end user being both the business owner of Balanced Training and their clients has been well great. The Business owner has a way of being found by clients through Google and social media and increase it's income. To the clients they are definitely getting value through being able to book their training sessions/learn what courses are available/learn about the different gym services. The contact form is definitely working unlike previous websites so the financial value is truly a tick in the box. 
+-   <strong>Version Control</strong>: Github was used for version control throughout the project.
+-   <strong>Attribution</strong>: In the Technologies used there were several frameworks and libraries used. I was quite happy to get on and work through this by myself and didn't have any assistance in writing any the code so it is all my own work apart from the Technologies used such as Bootstrap and Email JS etc.
+-   <strong>Deployment</strong>: The final version of the project is deployed here on github and a previous version with less optimization of picture is actually live at [Balanced Training](https://www.Balanced.Training).
+
+## Deployment
+
+
+
 ## Credits
 
 ### Code
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   [EmailJS](https://emailjs.com/): 
+    EmailJS was used at the end of the project to create a fully functioning contact us page.
+
 
 ### Content
 
@@ -152,6 +207,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Media
 
 -   All Images were created by the developer or previously owned and used by Balanced Training.
+
+
 
 ### Acknowledgements
 
